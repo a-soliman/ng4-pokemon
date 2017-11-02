@@ -50,4 +50,6 @@ export class PokemonService {
 		let msg = `Error status code ${error.status} status ${error.statusText} at ${error.url}`;
 		return Observable.throw(msg);
 	}
+
+	//test 
 }
